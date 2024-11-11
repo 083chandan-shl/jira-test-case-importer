@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "ES6",
+    "module": "commonjs",
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "rootDir": ".",
+    "paths": {
+      "@models/*": ["../../models"]
+    }
+  },
+  "include": ["*.ts", "**/*.ts", "**/*.spec.ts", "*.spec.ts"],
+  "exclude": ["node_modules", "../../node_modules"]
+}
